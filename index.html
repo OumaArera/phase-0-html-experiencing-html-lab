@@ -1,30 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Happy</title>
-  </head>
-  <body>
-    <div id="header">
-      <h1 id="main-heading">Happy</h1>
-      <h3 id="sub-heading">From the Motion Picture Despicable Me 2</h3>
-    </div>
-    <div id="image">
-      <img src="https://curriculum-content.s3.amazonaws.com/phase-0/html-album-cover-lab/album-cover-mockup.png" alt="Pharrell's face">
-    </div>
-    <div id="year">
-      <span id="current-year">2013</span> <span id="label">Columbia Records, a division of Sony Music Entertainment</span>
-    </div>
 
-    <div id="tracklist">
-      <ol>
-        <li>"Happy" 3:53</li>
-        <li>"Happy" (instrumental) 3:53</li>
-      </ol>
-    </div>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>HTML Structure</title>
+</head>
 
-    <div id="footer">
-      <p>Produced, written, arranged and performed by Pharrell Williams. c. 2013 Pharrell Williams, under exclusive license to Columbia Records, a Division of Sony Music Entertainment.</p>
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul>
+                    <li><a>Services</a></li>
+                    <li><a>Product</a></li>
+                    <li><a>Vision</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+    </header>
+    <br>
+    <br>
+    <section class="hero">
+        <h1> In a land of dragons</h1>
+        <h2>1,740,657 dragon-loving teams trust Tower to design the visuals of their websites Easy to work with. Its tower time!</h2>
+        <button>Order Now <img src="images/arrow.png" alt="arrow"></button>
+        </nav>
+    </section>
+    <br>
+    <br>
+    <section class="services">
+        <h2>Services</h2>
+        <p>Lorem ipsum </p>
+        <ul class="bullets">
+            <li>Consistency</li>
+            <li>New Brands</li>
+            <li>Creative Design</li>
+        </ul>
+        <img src="images/paint.png" alt="paint can">
+    </section>
+    <div>
+        <section class="product">
+            <h2 class="product-title">Product</h2>
+            <img src="images/watering.png" alt="watering can">
+            <p>
+                Just put in a bucket
+                and it waters your entire garden and house plants too! Totally easy and affordable! Stop being a bad
+                house plant mom and try today! &nbsp <img src="images/smile.png" alt="Smiling face with two eyes and
+                a losing tongue">
+            </p>
+            <div class="product-butteon-container">
+                <button>Read more</button>
+                <button class="button-green"></button>
+            </div>
+        </section>
+        <div></div>
+        <section class="vision-section">
+            <section class="vision">
+                <h2>Vision</h2>
+                <img src="images/vision.png" alt="Vision">
+                <p>Vision clear. Ideas unlimited. That's our way of thinking here. We've worked with hundreds of clients
+                    over the years ans one of the common threads has always been that clean communication and good design
+                    leads to very happy clients. </p>
+                <a href="#">Our Vision</a>
+            </section>
+        </section>
+        <section class="hire-us">
+            <h2>Hire Us</h2>
+            <form>
+                <label>Your email:</label>
+                <input type="text" placeholder="YOU@YOUREMAIL.COM">
+                <button class="submit-email" type="submit">Let's talk!</button>
+            </form>
+        </section>
     </div>
-  </body>
+</body>
+
 </html>
